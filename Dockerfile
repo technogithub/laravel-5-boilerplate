@@ -7,4 +7,3 @@ ADD bahan.zip /var/phpunit/
 WORKDIR /var/phpunit
 RUN unzip -o bahan.zip
 ENTRYPOINT php artisan serve --port=8080
-EXPOSE 8001
